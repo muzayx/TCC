@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>SPPA</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <link rel="stylesheet" href="src/assets/css/footer.css">
+    <script src="src/assets/js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,37 +19,41 @@
     <header>
         <nav class="navbar">
             <a class="logo" href="index.html">
-                <img class="logo" src="assets/images/sppa.png">
+                <img class="logo" src="src/assets/images/sppa.png">
             </a>
             <span id="hamburger-btn" class="menu-icon material-symbols-outlined">☰</span>
             <ul class="menu-links">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#">Adoção</a></li>
-                <li><a href="#">Parcerias</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="index.html">QUEM SOMOS</a></li>
+                <li><a href="#">NOSSAS ATIVIDADES</a></li>
+                <li><a href="#">ADOÇÃO</a></li>
+                <li><a href="#">EVENTOS</a></li>
+                <li><a href="#">DOAÇÕES</a></li>
+                <li><a href="#">CONTATO</a></li>
                 <span id="close-menu-btn" class="material-symbols-outlined">✖</span>
             </ul>
         </nav>
     </header>
 
     <section class="texto">
-        <div class="content">
-            <h2 class="titulo">Resgatando <span>esperança</span> e construindo <span>lares</span></h2>
-            <p>
-                Sociedade Piracicabana de Proteção aos Animais
-            </p>
-            <button> Adote um peludinho <img src="assets/images/pata.png"></button>
-        </div>
-    </section>
-    <img class="gato" src="assets/images/gato.png">
-    <img class="cachorro" src="assets/images/cachorro.png">
+    <div class="content">
+        <h2 class="titulo">
+            Resgatando <span>esperança</span><br> e construindo <span>lares</span>
+        </h2>
+        <p>
+            Sociedade Piracicabana de Proteção aos Animais
+        </p>
+        <button> Adote um peludinho <img src="src/assets/images/pata.png"></button>
+    </div>
+</section>
+
+    <img class="gato" src="src/assets/images/gato.png">
+    <img class="cachorro" src="src/assets/images/cachorro.png">
 
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
-                <h1>SPPA</h1>
-                <p>Resgatando esperança e construindo lares</p>
+                <h4>SPPA</h4>
+                <p>Transformando vidas</p>
 
                 <div id="footer_social_media">
                     <a href="https://www.instagram.com/sppaongpiracicaba/" class="footer-link" id="instagram">
@@ -60,54 +64,48 @@
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
 
-                    <a href="https://wa.me/5519997546022" class="footer-link" id="whatsapp">
-                        <i class="fa-brands fa-whatsapp"></i>
+                    <a href="mailto:sppaong@gmail.com" class="footer-link" id="email">
+                    <i class="fa-solid fa-envelope"></i>
                     </a>
                 </div>
             </div>
             <ul class="footer-list">
                 <li>
-                    <h3>ONG</h3>
+                    <h4>ONG</h4>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Sobre nós</a>
+                    <a href="#" class="footer-link">QUEM SOMOS</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Onde estamos?</a>
+                    <a href="#" class="footer-link">NOSSAS ATIVIDADES</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Parcerias</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Contato</a>
+                    <a href="#" class="footer-link">CONTATO</a>
                 </li>
             </ul>
             <ul class="footer-list">
                 <li>
-                    <h3>ANIMAIS</h3>
+                    <h4>ANIMAIS</h4>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Adote um peludinho</a>
+                    <a href="#" class="footer-link">ADOTE UM PELUDINHO</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Pontos de adoção</a>
+                    <a href="#" class="footer-link">PONTOS DE ADOÇÃO</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Doe agora</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Fique atualizado</a>
+                    <a href="#" class="footer-link">DOE AGORA</a>
                 </li>
             </ul>
             <ul class="footer-list">
                 <li>
-                    <h3>DOE AQUI</h3>
+                    <h4>DOE AGORA</h4>
                 </li>
                 <li>
-                    <div id="footer-qr">
-                        <p>
-                            <img src="assets/images/qrcode.png" class="qrcode">
-                        </p>
+                    <div id="doe-agora">
+                        <p>CHAVE <span>PIX</span> CNPJ: <br> 56.986.342/0001-87 
+                        <button class="copy-button" onclick="Copiar()"><i class="fa-regular fa-copy"></i></button></p>
+                        <img id="qr-code" src="src/assets/images/qr.png" alt="QR Code" width="100">
                     </div>
                 </li>
             </ul>
@@ -118,7 +116,6 @@
             2024 Todos os direitos reservados
         </div>
     </footer>
-
 </body>
 
 </html>
